@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+
+<web-app >
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>UserRegistration</servlet-name>
+  	<display-name>UserRegistration</display-name>
+  	<description></description>
+  	<servlet-class>com.ecart.servlets.UserRegistration</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>UserRegistrationServlet</servlet-name>
+  	<display-name>UserRegistrationServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.ecart.servlets.UserRegistrationServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<display-name>LoginServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.ecart.servlets.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LogoutServlet</servlet-name>
+  	<display-name>LogoutServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.ecart.servlets.LogoutServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ProductOperationServlet</servlet-name>
+  	<display-name>ProductOperationServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.ecart.servlets.ProductOperationServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>OrderDetails</servlet-name>
+  	<display-name>OrderDetails</display-name>
+  	<description></description>
+  	<servlet-class>com.ecart.servlets.OrderDetails</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>UserRegistration</servlet-name>
+  	<url-pattern>/UserRegistration</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UserRegistrationServlet</servlet-name>
+  	<url-pattern>/UserRegistrationServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ProductOperationServlet</servlet-name>
+  	<url-pattern>/ProductOperationServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>OrderDetails</servlet-name>
+  	<url-pattern>/OrderDetails</url-pattern>
+  </servlet-mapping>
+
+</web-app>
